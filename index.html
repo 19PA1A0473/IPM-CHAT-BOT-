@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+</style>
+</head>
+  <body>  
+    <script>  
+    var welcome;  
+    var date = new Date();  
+    var hour = date.getHours();  
+    var minute = date.getMinutes();  
+    var second = date.getSeconds();  
+    if (minute < 10) {  
+      minute = "0" + minute;  
+    }  
+    if (second < 10) {  
+      second = "0" + second;  
+    }  
+    if (hour < 12) {  
+      welcome = "Good morning";  
+    } else if (hour < 17) {  
+      welcome = "Good afternoon";  
+    } else {  
+      welcome = "Good evening";  
+    }  
+    document.write("<h2>" + "<font color='red'>" + welcome + "</font>" + " welcome dear buddy! want to know some information about your career");    
+    </script>
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+     <section >
+    <div>
+    <script src="script.js"></script>
+    <button onclick="myFunction()">B.tech percentage</button><br>
+   <p id="demo"></p>
+  OR you can check your talent by clicking on next
+   <a href="index1.html"><button class = "div">NEXT</button></a>
+
+
+    <p id="demo"></p>
+    </div>
+  </section>  
+  </body>  
+  </html>
