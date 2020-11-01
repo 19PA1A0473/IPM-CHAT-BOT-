@@ -24,3 +24,5 @@ COLLABORATORIES:-
 
 
 repl link:-https://chat-bot.karriyasoda.repl.co
+
+references:-w3 schools
